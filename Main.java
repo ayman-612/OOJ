@@ -48,9 +48,9 @@ public static void main(String args[])
 Scanner sc=new Scanner(System.in);
 int ch;
 shape s1;
-rectangle r=new rectangle();
-triangle t=new triangle();
-circle c=new circle();
+shape r=new rectangle();
+shape t=new triangle();
+shape c=new circle();
 System.out.println("\n1.Rectangle\n2.Triangle\n3.Circle\nEnter your choice:\n");
 ch=sc.nextInt();
 switch(ch)
